@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: lms-be-configmap
+data:
+  DB_HOST: mysql-cluster-ip
+  DB_PORT: "3306"
+  DB_NAME: lms-db
+  DB_USER: root
